@@ -1,0 +1,28 @@
+<svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip49_1648">
+			<rect id="删除" width="20.000000" height="20.000000" transform="translate(6.000000 6.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip49_1649">
+			<rect id="画板 128" rx="3.500000" width="31.000000" height="31.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip49_1649)">
+		<g clip-path="url(#clip49_1648)">
+			<path id="path" d="M9.75 10.16L9.75 24.33L22.25 24.33L22.25 10.16L9.75 10.16Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+			<path id="path" d="M9.75 24.33L22.25 24.33L22.25 10.16L9.75 10.16L9.75 24.33Z" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+			<path id="path" d="M13.6 14.35L13.58 14.33C13.58 13.91 13.91 13.58 14.33 13.58C14.75 13.58 15.08 13.91 15.08 14.33L15.06 14.35L13.6 14.35ZM15.06 19.73L15.08 19.75C15.08 20.16 14.75 20.5 14.33 20.5C13.91 20.5 13.58 20.16 13.58 19.75L13.6 19.73L15.06 19.73Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+			<path id="path" d="M14.33 14.33L14.33 19.75" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+			<path id="path" d="M16.93 14.35L16.91 14.33C16.91 13.91 17.24 13.58 17.66 13.58C18.08 13.58 18.41 13.91 18.41 14.33L18.39 14.35L16.93 14.35ZM18.39 19.73L18.41 19.75C18.41 20.16 18.08 20.5 17.66 20.5C17.24 20.5 16.91 20.16 16.91 19.75L16.93 19.73L18.39 19.73Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+			<path id="path" d="M17.66 14.33L17.66 19.75" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+			<path id="path" d="M7.68 10.89L7.66 10.91C7.24 10.91 6.91 10.58 6.91 10.16C6.91 9.74 7.24 9.41 7.66 9.41L7.68 9.43L7.68 10.89ZM24.31 9.43L24.33 9.41C24.75 9.41 25.08 9.74 25.08 10.16C25.08 10.58 24.75 10.91 24.33 10.91L24.31 10.89L24.31 9.43Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+			<path id="path" d="M7.66 10.16L24.33 10.16" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+			<path id="path" d="M12.66 10.16L14.03 7.66L17.99 7.66L19.33 10.16L12.66 10.16Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+			<path id="path" d="M14.03 7.66L17.99 7.66L19.33 10.16L12.66 10.16L14.03 7.66Z" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+		</g>
+	</g>
+	<rect id="画板 128" rx="3.500000" width="31.000000" height="31.000000" transform="translate(0.500000 0.500000)" stroke="#C9CDD4" stroke-opacity="0" stroke-width="1.000000"/>
+</svg>

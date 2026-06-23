@@ -1,0 +1,8 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.000000" height="16.000000" fill="none" customFrame="#000000">
+	<rect id="Editor (编辑)" width="16.000000" height="16.000000" x="0.000000" y="0.000000" />
+	<path id="Vector" d="M13.3333 11L13.3333 14C13.3333 14.3682 13.0349 14.6667 12.6667 14.6667L10.5 14.6667" fill-rule="nonzero" stroke="rgb(29,33,41)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.33333337" />
+	<path id="Vector" d="M13.3337 5.33398L13.3337 2.00065C13.3337 1.63246 13.0352 1.33398 12.667 1.33398L3.33366 1.33398C2.96547 1.33398 2.66699 1.63246 2.66699 2.00065L2.66699 14.0007C2.66699 14.3689 2.96547 14.6673 3.33366 14.6673L5.33366 14.6673" fill-rule="nonzero" stroke="rgb(29,33,41)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.33333337" />
+	<path id="Vector" d="M5.33301 5.33398L9.99967 5.33398" stroke="rgb(29,33,41)" stroke-linecap="round" stroke-width="1.33333337" />
+	<path id="Vector" d="M7.66699 14.666L13.3337 7.66602" fill-rule="nonzero" stroke="rgb(29,33,41)" stroke-linecap="round" stroke-width="1.33333337" />
+	<path id="Vector" d="M5.33301 8L7.99967 8" stroke="rgb(29,33,41)" stroke-linecap="round" stroke-width="1.33333337" />
+</svg>

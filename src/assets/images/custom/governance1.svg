@@ -1,0 +1,66 @@
+<svg width="152.000000" height="152.000000" viewBox="0 0 152 152" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <desc>
+    Created with Pixso.
+  </desc>
+  <defs>
+    <filter id="filter_382_3813_dd" x="22.500000" y="16.500000" width="95.000000" height="107.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="0" dy="-2.5"/>
+      <feGaussianBlur stdDeviation="0.5"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.21176 0 0 0 0 0.38431 0 0 0 0 1 0 0 0 0.37 0"/>
+      <feBlend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="1" dy="1.5"/>
+      <feGaussianBlur stdDeviation="0.833333"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.81176 0 0 0 0 0.88627 0 0 0 0 1 0 0 0 0.98 0"/>
+      <feBlend mode="normal" in2="effect_innerShadow_1" result="effect_innerShadow_2"/>
+      <feGaussianBlur stdDeviation="0.5" result="effect_layerBlur_3"/>
+    </filter>
+    <filter id="filter_382_3814_dd" x="36.000000" y="30.000000" width="92.000000" height="104.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="0" dy="-1.5"/>
+      <feGaussianBlur stdDeviation="0.5"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.21176 0 0 0 0 0.38431 0 0 0 0 1 0 0 0 0.37 0"/>
+      <feBlend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur stdDeviation="0.5"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+      <feBlend mode="normal" in2="effect_innerShadow_1" result="effect_innerShadow_2"/>
+    </filter>
+    <clipPath id="clip382_3824">
+      <rect id="画板 362" width="152.000000" height="152.000000" fill="white" fill-opacity="0"/>
+    </clipPath>
+    <linearGradient x1="49.300003" y1="22.085709" x2="85.771408" y2="121.999969" id="paint_linear_382_3813_0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3090FF"/>
+      <stop offset="1.000000" stop-color="#9FC8FF"/>
+    </linearGradient>
+    <linearGradient x1="58.999985" y1="17.742817" x2="97.771454" y2="134.000000" id="paint_linear_382_3814_0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3090FF"/>
+      <stop offset="1.000000" stop-color="#E9F3FF"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#clip382_3824)">
+    <g filter="url(#filter_382_3813_dd)">
+      <path id="矩形 178" d="M40 18L100 18C108.83 18 116 25.16 116 34L116 106C116 114.83 108.83 122 100 122L40 122C31.16 122 24 114.83 24 106L24 34C24 25.16 31.16 18 40 18Z" fill="url(#paint_linear_382_3813_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+    </g>
+    <g opacity="0.800000" filter="url(#filter_382_3814_dd)">
+      <path id="矩形 177" d="M52 30L112 30C120.83 30 128 37.16 128 46L128 118C128 126.83 120.83 134 112 134L52 134C43.16 134 36 126.83 36 118L36 46C36 37.16 43.16 30 52 30Z" fill="url(#paint_linear_382_3814_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+    </g>
+    <path id="rect (边框)" d="M105.37 55.03C104.29 54.01 102.66 53.5 100.5 53.5L63.99 53.5C61.83 53.5 60.2 54.01 59.12 55.03C58.04 56.06 57.5 57.59 57.5 59.64L57.5 104.78C57.5 105.63 57.65 106.41 57.97 107.14C58.29 107.86 58.76 108.52 59.4 109.13C60.03 109.72 60.73 110.18 61.5 110.47C62.26 110.78 63.09 110.93 63.99 110.93L100.5 110.93C101.4 110.93 102.23 110.78 102.99 110.47C103.76 110.18 104.46 109.72 105.09 109.13C105.73 108.52 106.2 107.86 106.52 107.14C106.84 106.41 106.99 105.63 106.99 104.78L106.99 59.64C106.99 57.59 106.45 56.06 105.37 55.03ZM63.99 58.76L100.5 58.76C100.81 58.76 101.04 58.84 101.19 58.98C101.35 59.13 101.43 59.35 101.43 59.64L101.43 104.78C101.43 105.07 101.35 105.29 101.19 105.44C101.04 105.58 100.81 105.66 100.5 105.66L63.99 105.66C63.86 105.66 63.74 105.64 63.63 105.59C63.52 105.55 63.42 105.49 63.33 105.4C63.24 105.31 63.17 105.22 63.13 105.12C63.08 105.01 63.06 104.9 63.06 104.78L63.06 59.64C63.06 59.35 63.14 59.13 63.29 58.98C63.45 58.84 63.68 58.76 63.99 58.76Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+    <path id="path (边框)" d="M78.13 66.54L94.6 66.54C96.16 66.54 97.38 67.7 97.38 69.17C97.38 70.65 96.16 71.81 94.6 71.81L78.13 71.81C76.57 71.81 75.34 70.65 75.34 69.17C75.34 67.7 76.57 66.54 78.13 66.54Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+    <path id="path (边框)" d="M78.13 79.58L94.6 79.58C96.16 79.58 97.38 80.74 97.38 82.21C97.38 83.69 96.16 84.85 94.6 84.85L78.13 84.85C76.57 84.85 75.34 83.69 75.34 82.21C75.34 80.74 76.57 79.58 78.13 79.58Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+    <path id="path (边框)" d="M78.13 92.62L94.6 92.62C96.16 92.62 97.38 93.78 97.38 95.25C97.38 96.73 96.16 97.89 94.6 97.89L78.13 97.89C76.57 97.89 75.34 96.73 75.34 95.25C75.34 93.78 76.57 92.62 78.13 92.62Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+    <path id="path" d="M69.89 71.78C71.41 71.78 72.64 70.61 72.64 69.17C72.64 67.73 71.41 66.56 69.89 66.56C68.37 66.56 67.15 67.73 67.15 69.17C67.15 70.61 68.37 71.78 69.89 71.78Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+    <path id="path" d="M69.89 84.82C71.41 84.82 72.64 83.65 72.64 82.21C72.64 80.77 71.41 79.6 69.89 79.6C68.37 79.6 67.15 80.77 67.15 82.21C67.15 83.65 68.37 84.82 69.89 84.82Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+    <path id="path" d="M69.89 97.86C71.41 97.86 72.64 96.69 72.64 95.25C72.64 93.81 71.41 92.64 69.89 92.64C68.37 92.64 67.15 93.81 67.15 95.25C67.15 96.69 68.37 97.86 69.89 97.86Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+  </g>
+</svg>

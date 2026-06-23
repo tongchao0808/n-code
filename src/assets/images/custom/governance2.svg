@@ -1,0 +1,67 @@
+<svg width="152.000000" height="152.000000" viewBox="0 0 152 152" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <desc>
+    Created with Pixso.
+  </desc>
+  <defs>
+    <filter id="filter_382_3836_dd" x="22.500000" y="16.500000" width="95.000000" height="107.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="0" dy="-2.5"/>
+      <feGaussianBlur stdDeviation="0.5"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.21176 0 0 0 0 0.38431 0 0 0 0 1 0 0 0 0.37 0"/>
+      <feBlend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="1" dy="1.5"/>
+      <feGaussianBlur stdDeviation="0.833333"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.81176 0 0 0 0 0.88627 0 0 0 0 1 0 0 0 0.98 0"/>
+      <feBlend mode="normal" in2="effect_innerShadow_1" result="effect_innerShadow_2"/>
+      <feGaussianBlur stdDeviation="0.5" result="effect_layerBlur_3"/>
+    </filter>
+    <filter id="filter_382_3837_dd" x="36.000000" y="30.000000" width="92.000000" height="104.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="0" dy="-1.5"/>
+      <feGaussianBlur stdDeviation="0.5"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.21176 0 0 0 0 0.38431 0 0 0 0 1 0 0 0 0.37 0"/>
+      <feBlend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur stdDeviation="0.5"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+      <feBlend mode="normal" in2="effect_innerShadow_1" result="effect_innerShadow_2"/>
+    </filter>
+    <clipPath id="clip382_3840">
+      <rect id="写作" width="58.000000" height="58.000000" transform="translate(52.500000 53.000000)" fill="white" fill-opacity="0"/>
+    </clipPath>
+    <clipPath id="clip382_3842">
+      <rect id="画板 361" width="152.000000" height="152.000000" fill="white" fill-opacity="0"/>
+    </clipPath>
+    <linearGradient x1="49.300003" y1="22.085709" x2="85.771408" y2="121.999969" id="paint_linear_382_3836_0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3090FF"/>
+      <stop offset="1.000000" stop-color="#9FC8FF"/>
+    </linearGradient>
+    <linearGradient x1="58.999985" y1="17.742817" x2="97.771454" y2="134.000000" id="paint_linear_382_3837_0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3090FF"/>
+      <stop offset="1.000000" stop-color="#EAF3FF"/>
+    </linearGradient>
+  </defs>
+  <rect id="画板 361" width="152.000000" height="152.000000" fill="#FFFFFF" fill-opacity="0"/>
+  <g clip-path="url(#clip382_3842)">
+    <g filter="url(#filter_382_3836_dd)">
+      <path id="矩形 178" d="M40 18L100 18C108.83 18 116 25.16 116 34L116 106C116 114.83 108.83 122 100 122L40 122C31.16 122 24 114.83 24 106L24 34C24 25.16 31.16 18 40 18Z" fill="url(#paint_linear_382_3836_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+    </g>
+    <g opacity="0.800000" filter="url(#filter_382_3837_dd)">
+      <path id="矩形 177" d="M52 30L112 30C120.83 30 128 37.16 128 46L128 118C128 126.83 120.83 134 112 134L52 134C43.16 134 36 126.83 36 118L36 46C36 37.16 43.16 30 52 30Z" fill="url(#paint_linear_382_3837_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+    </g>
+    <g clip-path="url(#clip382_3840)">
+      <path id="path (边框)" d="M69.92 107.33C70.15 107.23 70.36 107.1 70.54 106.92L108.13 69.32C108.51 68.95 108.7 68.49 108.7 67.96C108.7 67.43 108.51 66.98 108.13 66.61L97.88 56.35C97.51 55.98 97.05 55.79 96.52 55.79C95.99 55.79 95.54 55.98 95.17 56.35L57.57 93.95C57.39 94.13 57.25 94.33 57.16 94.57C57.06 94.81 57.01 95.05 57.01 95.3L57.01 105.56C57.01 106.09 57.2 106.54 57.57 106.91C57.95 107.29 58.4 107.48 58.93 107.48L69.18 107.48C69.44 107.48 69.68 107.43 69.92 107.33ZM68.39 103.64L104.06 67.96L96.52 60.42L60.85 96.1L60.85 103.64L68.39 103.64Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+      <path id="path (边框)" d="M87.63 66.61L97.88 76.86C98.64 77.62 98.64 78.81 97.88 79.57C97.12 80.33 95.93 80.33 95.17 79.57L84.91 69.32C84.15 68.56 84.15 67.37 84.91 66.61C85.67 65.84 86.87 65.84 87.63 66.61Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

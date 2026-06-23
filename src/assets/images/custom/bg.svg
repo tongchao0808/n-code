@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1926 1075" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <desc>
+    Created with Pixso.
+  </desc>
+  <defs>
+    <linearGradient x1="963.000000" y1="0.000000" x2="963.000000" y2="1075.000000" id="paint_linear_186_2531_0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CAE2FF"/>
+      <stop offset="0.992366" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient gradientTransform="translate(489.001 569.999) rotate(90) scale(788.328 788.328)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_49_273_0" gradientUnits="userSpaceOnUse">
+      <stop offset="0.122137" stop-color="#FFFFFF"/>
+      <stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+    </radialGradient>
+    <linearGradient x1="-664.126343" y1="357.998352" x2="779.871948" y2="600.499329" id="paint_linear_49_284_0" gradientUnits="userSpaceOnUse">
+      <stop offset="0.338838" stop-color="#ABDAFF" stop-opacity="0.000000"/>
+      <stop offset="0.908397" stop-color="#E7EFFF"/>
+    </linearGradient>
+    <linearGradient x1="-215.423004" y1="273.421753" x2="1170.095459" y2="464.135193" id="paint_linear_49_285_0" gradientUnits="userSpaceOnUse">
+      <stop offset="0.338838" stop-color="#ABDAFF" stop-opacity="0.000000"/>
+      <stop offset="0.908397" stop-color="#E7EFFF"/>
+    </linearGradient>
+    <linearGradient x1="458.368835" y1="205.411560" x2="1796.705322" y2="361.035889" id="paint_linear_49_286_0" gradientUnits="userSpaceOnUse">
+      <stop offset="0.338838" stop-color="#ABDAFF" stop-opacity="0.000000"/>
+      <stop offset="0.908397" stop-color="#E7EFFF"/>
+    </linearGradient>
+    <radialGradient gradientTransform="translate(405.498 619.001) rotate(90) scale(192 712.5)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_49_276_0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#99C7FF"/>
+      <stop offset="1.000000" stop-color="#99DFFF" stop-opacity="0.000000"/>
+    </radialGradient>
+    <radialGradient gradientTransform="translate(545.998 997.5) rotate(90) scale(228.5 531)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_49_278_0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#99C7FF"/>
+      <stop offset="1.000000" stop-color="#99DFFF" stop-opacity="0.000000"/>
+    </radialGradient>
+  </defs>
+  <rect id="矩形 168" width="1926.000000" height="1075.000000" fill="url(#paint_linear_186_2531_0)" fill-opacity="1.000000"/>
+  <mask id="mask186_2534" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="1926.000000" height="1075.000000">
+    <rect id="矩形 168" width="1926.000000" height="1075.000000" fill="#C4C4C4" fill-opacity="1.000000"/>
+  </mask>
+  <g mask="url(#mask186_2534)">
+    <circle id="椭圆 8" cx="489.000000" cy="570.000000" r="915.000000" fill="url(#paint_radial_49_273_0)" fill-opacity="1.000000"/>
+    <g opacity="0.570000">
+      <path id="矩形 149" d="M-52.19 -486.96L508.64 -124.56C511.52 -122.7 511.99 -119.87 509.84 -117.33L-220.73 747.88C-223.07 750.64 -227.99 752.49 -233.01 752.49L-923.33 752.5C-931.06 752.5 -935.64 748.22 -932.58 743.86L-72.52 -483.75C-68.97 -488.81 -57.78 -490.58 -52.19 -486.96Z" fill="url(#paint_linear_49_284_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+    </g>
+    <g opacity="0.570000">
+      <path id="矩形 150" d="M416.85 -544.72L1119.43 -191.06C1123.51 -189.01 1123.96 -185.33 1120.5 -182.36L120.47 675.08C118 677.2 113.96 678.57 109.82 678.7L-453.36 696C-461.4 696.24 -466.4 691.88 -463.24 687.37L397.37 -541.02C400.7 -545.77 410.92 -547.71 416.85 -544.72Z" fill="url(#paint_linear_49_285_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+    </g>
+    <path id="矩形 151" d="M1129.9 -605.99L1832.13 -252.51C1836.33 -250.39 1836.66 -246.54 1832.88 -243.55L836.33 545.75C834.5 547.2 831.91 548.28 829.03 548.79L257.85 650.69C248.59 652.34 241.26 647.65 244.9 642.4L1110.4 -602.27C1113.71 -607.03 1123.94 -608.98 1129.9 -605.99Z" fill="url(#paint_linear_49_286_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+    <mask id="mask49_280" mask-type="alpha" maskUnits="userSpaceOnUse" x="-451.000000" y="52.000244" width="2629.789551" height="1518.295654">
+      <path id="矩形 149" d="M1279.99 505.96L2075.15 754.39C2119.93 768.37 2112.75 807.94 2062.52 824.05L579.77 1299.56C554.15 1307.77 524.63 1306.92 504.9 1297.39L-359.23 879.87C-398.36 860.96 -378.39 821.18 -324.4 810.52L1227.31 504.1C1245.61 500.49 1264.62 501.16 1279.99 505.96Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+    </mask>
+    <g mask="url(#mask49_280)">
+      <g opacity="0.410000">
+        <ellipse id="椭圆 9" cx="405.498047" cy="619.000732" rx="712.500000" ry="192.000000" fill="url(#paint_radial_49_276_0)" fill-opacity="1.000000"/>
+      </g>
+    </g>
+    <g mask="url(#mask49_280)">
+      <g opacity="0.250000">
+        <ellipse id="椭圆 10" cx="545.998047" cy="997.500244" rx="531.000000" ry="228.500000" fill="url(#paint_radial_49_278_0)" fill-opacity="1.000000"/>
+      </g>
+    </g>
+  </g>
+</svg>

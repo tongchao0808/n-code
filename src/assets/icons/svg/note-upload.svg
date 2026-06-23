@@ -1,0 +1,22 @@
+<svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.000000" height="18.000000" fill="none">
+	<defs>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<mask id="mask_0" width="18.000000" height="18.000000" x="0.000000" y="0.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<g id="icon-38b45fb07f10b972">
+				<path id="矢量 323" d="M18 0L0 0L0 18L18 18L18 0Z" fill="rgb(127.5,127.5,127.5)" fill-rule="nonzero" />
+			</g>
+		</g>
+	</mask>
+	<rect id="上传 2" width="18.000000" height="18.000000" x="0.000000" y="0.000000" />
+	<g id="mask" mask="url(#mask_0)">
+		<g id="组合 324">
+			<path id="矢量 320" d="M2.25 9.00311L2.25 15.75L15.75 15.75L15.75 9" fill-rule="nonzero" stroke="rgb(95,100,108)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.125" />
+			<path id="矢量 321" d="M12.375 5.625L9 2.25L5.625 5.625" fill-rule="nonzero" stroke="rgb(95,100,108)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.125" />
+			<path id="矢量 322" d="M8.99707 12L8.99707 2.25" stroke="rgb(95,100,108)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.125" />
+		</g>
+	</g>
+</svg>

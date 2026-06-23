@@ -1,0 +1,28 @@
+<svg width="22.000000" height="22.000000" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <desc>
+    Created with Pixso.
+  </desc>
+  <defs>
+    <clipPath id="clip68_1647">
+      <rect id="显微镜" width="18.000000" height="18.000000" transform="translate(2.000000 2.000000)" fill="white" fill-opacity="0"/>
+    </clipPath>
+    <clipPath id="clip68_1648">
+      <rect id="画板 54" width="22.000000" height="22.000000" fill="white" fill-opacity="0"/>
+    </clipPath>
+  </defs>
+  <rect id="画板 54" width="22.000000" height="22.000000" fill="#FFFFFF" fill-opacity="0"/>
+  <g clip-path="url(#clip68_1648)">
+    <g clip-path="url(#clip68_1647)">
+      <path id="path" d="M12.07 18.93L12.07 18.96C11.81 19.14 11.46 19.07 11.28 18.82C11.1 18.56 11.17 18.21 11.42 18.03L11.45 18.04L12.07 18.93ZM13.01 12.95L12.98 12.95C12.73 12.77 12.67 12.43 12.85 12.17C13.03 11.91 13.37 11.85 13.63 12.04L13.64 12.06L13.01 12.95Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+      <path id="path" d="M11.75 18.5C13.37 17.37 14.24 16.23 14.35 15.07C14.46 13.92 14.11 13.06 13.31 12.5" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000" stroke-linecap="round"/>
+      <path id="path" d="M12.37 12.58C13.3 12.58 14.05 11.82 14.05 10.89C14.05 9.96 13.3 9.2 12.37 9.2C11.43 9.2 10.68 9.96 10.68 10.89C10.68 11.82 11.43 12.58 12.37 12.58Z" fill="#000000" fill-opacity="0" fill-rule="evenodd"/>
+      <path id="path" d="M14.05 10.89C14.05 9.96 13.3 9.2 12.37 9.2C11.43 9.2 10.68 9.96 10.68 10.89C10.68 11.82 11.43 12.58 12.37 12.58C13.3 12.58 14.05 11.82 14.05 10.89Z" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000"/>
+      <path id="path" d="M10.7 11.75L10.7 11.72C10.92 11.5 11.27 11.5 11.5 11.72C11.72 11.94 11.72 12.29 11.5 12.52L11.48 12.52L10.7 11.75ZM14.01 10.01L14.01 10.04C13.79 10.26 13.44 10.26 13.21 10.04C12.99 9.81 12.99 9.46 13.21 9.24L13.24 9.24L14.01 10.01Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+      <path id="path" d="M11.1 12.12L9.04 14.21L5.59 10.76L12.48 3.87L15.93 7.32L13.61 9.64" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000" stroke-linejoin="round" stroke-linecap="round"/>
+      <path id="path" d="M4.09 12.95L4.06 12.95C3.84 12.73 3.83 12.38 4.05 12.15C4.27 11.93 4.62 11.92 4.85 12.14L4.85 12.17L4.09 12.95ZM7.77 15.02L7.8 15.02C8.02 15.24 8.02 15.59 7.8 15.82C7.58 16.04 7.23 16.05 7.01 15.83L7.01 15.8L7.77 15.02Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+      <path id="path" d="M4.45 12.55L7.4 15.43" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000" stroke-linecap="round"/>
+      <path id="path" d="M4.27 19.04L4.25 19.06C3.93 19.06 3.68 18.81 3.68 18.5C3.68 18.18 3.93 17.93 4.25 17.93L4.27 17.95L4.27 19.04ZM17.73 17.95L17.75 17.93C18.06 17.93 18.31 18.18 18.31 18.5C18.31 18.81 18.06 19.06 17.75 19.06L17.73 19.04L17.73 17.95Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+      <path id="path" d="M4.25 18.5L17.75 18.5" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

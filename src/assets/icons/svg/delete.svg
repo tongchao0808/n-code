@@ -1,0 +1,20 @@
+<svg width="18.000000" height="18.000000" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <desc>
+    Created with Pixso.
+  </desc>
+  <defs>
+    <clipPath id="clip226_3026">
+      <rect id="删除主题" width="18.000000" height="18.000000" fill="white" fill-opacity="0"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip226_3026)">
+    <path id="path" d="M3 5.62L15 5.62L13.87 16.5L4.12 16.5L3 5.62Z" fill="#000000" fill-opacity="0" fill-rule="evenodd"/>
+    <path id="path" d="M15 5.62L13.87 16.5L4.12 16.5L3 5.62L15 5.62Z" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000" stroke-linejoin="round"/>
+    <path id="path" d="M6.95 9.39L6.93 9.37C6.93 9.06 7.18 8.81 7.5 8.81C7.81 8.81 8.06 9.06 8.06 9.37L8.04 9.39L6.95 9.39ZM8.04 13.1L8.06 13.12C8.06 13.44 7.81 13.68 7.5 13.68C7.18 13.68 6.93 13.44 6.93 13.12L6.95 13.1L8.04 13.1Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+    <path id="path" d="M7.5 9.37L7.5 13.12" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000" stroke-linecap="round"/>
+    <path id="path" d="M9.95 9.39L9.93 9.37C9.93 9.06 10.18 8.81 10.5 8.81C10.81 8.81 11.06 9.06 11.06 9.37L11.04 9.39L9.95 9.39ZM11.04 13.1L11.06 13.12C11.06 13.43 10.81 13.68 10.5 13.68C10.18 13.68 9.93 13.43 9.93 13.12L9.95 13.1L11.04 13.1Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+    <path id="path" d="M10.5 9.37L10.5 13.12" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000" stroke-linecap="round"/>
+    <path id="path" d="M4.83 6.05L4.83 6.07C4.57 6.26 4.23 6.21 4.04 5.95C3.86 5.7 3.91 5.35 4.16 5.17L4.19 5.17L4.83 6.05ZM13.94 5.31L13.97 5.32C14.14 5.58 14.06 5.92 13.8 6.09C13.53 6.26 13.19 6.19 13.02 5.92L13.03 5.9L13.94 5.31Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+    <path id="path" d="M4.5 5.62L10.62 1.12L13.5 5.62" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

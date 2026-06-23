@@ -1,0 +1,10 @@
+<svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.000000" height="18.000000" fill="none">
+	<rect id="删除" width="18.000000" height="18.000000" x="0.000000" y="0.000000" />
+	<path id="path" d="M3.375 3.75L3.375 15C3.375 15.8284 4.04657 16.5 4.875 16.5L13.125 16.5C13.9534 16.5 14.625 15.8284 14.625 15L14.625 3.75L3.375 3.75Z" fill="rgb(0,0,0)" fill-opacity="0" fill-rule="nonzero" />
+	<path id="path" d="M3.375 15C3.375 15.8284 4.04657 16.5 4.875 16.5L13.125 16.5C13.9534 16.5 14.625 15.8284 14.625 15L14.625 3.75L3.375 3.75L3.375 15Z" fill-rule="nonzero" stroke="rgb(54,98,255)" stroke-linejoin="round" stroke-width="1.125000" />
+	<path id="path" d="M0 0L4.875 0" stroke="rgb(54,98,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.125000" transform="matrix(0,1,-1,0,7.5,7.5)" />
+	<path id="path" d="M0 0L4.875 0" stroke="rgb(54,98,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.125000" transform="matrix(0,1,-1,0,10.5,7.5)" />
+	<path id="path" d="M1.5 3.75L16.5 3.75" stroke="rgb(54,98,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.125000" />
+	<path id="path" d="M6 3.75L7.00564 1.91545C7.14607 1.65926 7.415 1.5 7.70715 1.5L10.313 1.5C10.6076 1.5 10.8784 1.66191 11.0178 1.92144L12 3.75L6 3.75Z" fill="rgb(0,0,0)" fill-opacity="0" fill-rule="nonzero" />
+	<path id="path" d="M7.00564 1.91545C7.14607 1.65926 7.415 1.5 7.70715 1.5L10.313 1.5C10.6076 1.5 10.8784 1.66191 11.0178 1.92144L12 3.75L6 3.75L7.00564 1.91545Z" fill-rule="nonzero" stroke="rgb(54,98,255)" stroke-linejoin="round" stroke-width="1.125000" />
+</svg>

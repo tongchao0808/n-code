@@ -1,0 +1,16 @@
+<svg width="12.000000" height="12.000000" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip186_1125">
+			<rect id="复制" width="12.000000" height="12.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip186_1125)">
+		<path id="path" d="M3.72 3.08L3.75 3.1C3.75 3.38 3.52 3.6 3.25 3.6C2.97 3.6 2.75 3.38 2.75 3.1L2.77 3.08L3.72 3.08ZM8.89 9.22L8.87 9.25C8.59 9.25 8.37 9.03 8.37 8.75C8.37 8.46 8.59 8.25 8.87 8.25L8.89 8.27L8.89 9.22Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M3.25 3.1L3.25 1.95C3.25 1.56 3.56 1.25 3.95 1.25L10.04 1.25C10.43 1.25 10.75 1.56 10.75 1.95L10.75 8.04C10.75 8.43 10.43 8.75 10.04 8.75L8.87 8.75" stroke="#5F646C" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path" d="M8.04 3.25L1.95 3.25C1.56 3.25 1.25 3.56 1.25 3.95L1.25 10.04C1.25 10.43 1.56 10.75 1.95 10.75L8.04 10.75C8.43 10.75 8.75 10.43 8.75 10.04L8.75 3.95C8.75 3.56 8.43 3.25 8.04 3.25Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M1.95 3.25C1.56 3.25 1.25 3.56 1.25 3.95L1.25 10.04C1.25 10.43 1.56 10.75 1.95 10.75L8.04 10.75C8.43 10.75 8.75 10.43 8.75 10.04L8.75 3.95C8.75 3.56 8.43 3.25 8.04 3.25L1.95 3.25Z" stroke="#5F646C" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round"/>
+	</g>
+</svg>

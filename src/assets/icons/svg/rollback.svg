@@ -1,0 +1,20 @@
+<svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <desc>
+    Created with Pixso.
+  </desc>
+  <defs>
+    <clipPath id="clip196_1259">
+      <rect id="历史记录" width="20.000000" height="20.000000" transform="translate(10.000000 10.000000)" fill="white" fill-opacity="0"/>
+    </clipPath>
+  </defs>
+  <rect id="画板 2" rx="0.000000" width="39.000000" height="39.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0.000000"/>
+  <g clip-path="url(#clip196_1259)">
+    <path id="path" d="M11.88 12.82L11.86 12.8C11.86 12.48 12.1 12.24 12.42 12.24C12.73 12.24 12.98 12.48 12.98 12.8L12.96 12.82L11.88 12.82ZM15.43 15.29L15.45 15.27C15.76 15.27 16.01 15.51 16.01 15.83C16.01 16.14 15.76 16.39 15.45 16.39L15.43 16.37L15.43 15.29Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+    <path id="path" d="M12.42 12.8L12.42 15.83L15.45 15.83" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000" stroke-linejoin="round" stroke-linecap="round"/>
+    <path id="path" d="M11.12 20.02L11.1 20C11.1 19.68 11.35 19.43 11.66 19.43C11.98 19.43 12.22 19.68 12.22 20L12.2 20.02L11.12 20.02ZM13.26 16.08L13.26 16.11C13.11 16.38 12.77 16.47 12.5 16.31C12.22 16.16 12.13 15.82 12.29 15.55L12.32 15.54L13.26 16.08Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+    <path id="path" d="M11.66 20C11.66 24.6 15.39 28.33 20 28.33C24.6 28.33 28.33 24.6 28.33 20C28.33 15.39 24.6 11.66 20 11.66C16.91 11.66 14.22 13.34 12.78 15.83" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000" stroke-linejoin="round" stroke-linecap="round"/>
+    <path id="path" d="M19.45 15.02L19.43 15C19.44 14.68 19.68 14.43 20 14.43C20.31 14.43 20.56 14.68 20.56 15L20.54 15.02L19.45 15.02ZM23.9 23.13L23.93 23.13C24.15 23.36 24.15 23.71 23.93 23.93C23.71 24.15 23.36 24.15 23.13 23.93L23.13 23.9L23.9 23.13Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+    <path id="path" d="M20 15L20 20L23.53 23.53" stroke="currentColor" stroke-opacity="1.000000" stroke-width="1.125000" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <rect id="画板 2" rx="0.000000" width="39.000000" height="39.000000" transform="translate(0.500000 0.500000)" stroke="#000000" stroke-opacity="0.060000" stroke-width="1.000000"/>
+</svg>

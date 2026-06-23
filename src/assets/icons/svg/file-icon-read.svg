@@ -1,0 +1,10 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.000000" height="48.000000" fill="none">
+	<defs>
+		<linearGradient id="paint_linear_0" x1="6.07192993" x2="30.3719311" y1="-0.133339882" y2="43.9999962" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(144,120,255)" offset="0.0253164563" stop-opacity="1" />
+			<stop stop-color="rgb(138,178,255)" offset="1" stop-opacity="1" />
+		</linearGradient>
+	</defs>
+	<rect id="文件" width="48.000000" height="48.000000" x="0.000000" y="0.000000" />
+	<path id="矢量 66" d="M40 44L8 44C7.46956 44 6.96086 43.7892 6.58578 43.4142C6.21072 43.0392 6 42.5304 6 42L6 6C6 5.46956 6.21072 4.96086 6.58578 4.58578C6.96086 4.21072 7.46956 4 8 4L40 4C40.5304 4 41.0392 4.21072 41.4142 4.58578C41.7892 4.96086 42 5.46956 42 6L42 42C42 42.5304 41.7892 43.0392 41.4142 43.4142C41.0392 43.7892 40.5304 44 40 44ZM16 14L16 18L32 18L32 14L16 14ZM16 22L16 26L32 26L32 22L16 22ZM16 30L16 34L32 34L32 30L16 30Z" fill="url(#paint_linear_0)" fill-rule="evenodd" />
+</svg>
