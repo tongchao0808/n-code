@@ -927,6 +927,7 @@ export default {
       />
       <div
         class="relative flex flex-col items-center flex-1 w-full h-full overflow-hidden"
+        style="padding-bottom: 160px"
       >
         <div
           id="message-container"
@@ -962,7 +963,7 @@ export default {
           </div>
           <div
             id="chat-input-container"
-            class="w-full flex items-center justify-center px-[10px] bg-white"
+            class="w-full flex items-center justify-center px-[10px]"
           >
             <ChatInputArea
               :init-config="initConfig"

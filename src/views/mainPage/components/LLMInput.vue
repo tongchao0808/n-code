@@ -9,7 +9,12 @@ import NoteActionButtons from "@/views/mainPage/components/NoteActionButtons.vue
 import { nanoid } from "nanoid";
 import { getCustomKnowledgeBaseTree } from "@/api/custom/customKnowledgeBase";
 import { getCustomKnowledgeBaseList } from "@/api/custom/customKnowledgeBase";
-import {isWriteMode, isDeepThinkMode, isMustUploadAttach, getLLMInputPlaceholder} from "@/plugins/aiAnserConfig.js";
+import {
+  isWriteMode,
+  isDeepThinkMode,
+  isMustUploadAttach,
+  getLLMInputPlaceholder,
+} from "@/plugins/aiAnserConfig.js";
 
 export default {
   name: "LLMInput",
@@ -40,7 +45,7 @@ export default {
     },
     llmInputPlaceholder() {
       return getLLMInputPlaceholder();
-    }
+    },
   },
   data() {
     return {
@@ -57,8 +62,8 @@ export default {
       sessionUniqueId: "",
       treeData: [],
       selectedLeafIds: [],
-      deepThinkMode: 'no-think',
-      networkMode: 'offline',
+      deepThinkMode: "no-think",
+      networkMode: "offline",
     };
   },
   watch: {
@@ -66,8 +71,8 @@ export default {
       handler(newVal, oldVal) {
         this.initDefaultConfig();
       },
-      deep: true
-    }
+      deep: true,
+    },
   },
   created() {
     if (this.$store.state.history.scene === "sop-agent") {
@@ -81,7 +86,7 @@ export default {
     });
     // 为写作模式注册ai润色事件
     if (this.isWriteMode) {
-      this.$bus.$on('doAIRewrite', (type) => {
+      this.$bus.$on("doAIRewrite", (type) => {
         this.callSend(type);
       });
     }
@@ -89,37 +94,38 @@ export default {
   destroyed() {
     // 为写作模式注销ai润色事件
     if (this.isWriteMode) {
-      this.$bus.$off('doAIRewrite');
+      this.$bus.$off("doAIRewrite");
     }
   },
   methods: {
     initDefaultConfig() {
       if (this.initConfig) {
-      if (this.initConfig.useKnowledge !== undefined) {
-        this.useKnowledge = this.initConfig.useKnowledge;
-        this.useKnowledge && (this.selectedLeafIds = this.initConfig.knowledgeDatabases || []);
-      }
-      if (this.initConfig.model !== undefined) {
-        this.usedModel = this.initConfig.model;
-      }
-      if (this.initConfig.sessionUniqueId !== undefined) {
-        this.sessionUniqueId = this.initConfig.sessionUniqueId;
-      }
+        if (this.initConfig.useKnowledge !== undefined) {
+          this.useKnowledge = this.initConfig.useKnowledge;
+          this.useKnowledge &&
+            (this.selectedLeafIds = this.initConfig.knowledgeDatabases || []);
+        }
+        if (this.initConfig.model !== undefined) {
+          this.usedModel = this.initConfig.model;
+        }
+        if (this.initConfig.sessionUniqueId !== undefined) {
+          this.sessionUniqueId = this.initConfig.sessionUniqueId;
+        }
 
-      // 需要深度思考按钮的模式下，初始化回答选项：是否深度思考或联网
-      if (this.isDeepThinkMode) {
-        let activeTabs = [];
-      if (this.initConfig.deepThinkMode === 'think') {
-        activeTabs.push('deepThink');
+        // 需要深度思考按钮的模式下，初始化回答选项：是否深度思考或联网
+        if (this.isDeepThinkMode) {
+          let activeTabs = [];
+          if (this.initConfig.deepThinkMode === "think") {
+            activeTabs.push("deepThink");
+          }
+          if (this.initConfig.networkMode === "online") {
+            activeTabs.push("searchMaterial");
+          }
+          if (this.$refs.noteActionButtons) {
+            this.$refs.noteActionButtons.initActiveTabs(activeTabs);
+          }
+        }
       }
-      if (this.initConfig.networkMode === 'online') {
-        activeTabs.push('searchMaterial');
-      }
-      if(this.$refs.noteActionButtons) {
-        this.$refs.noteActionButtons.initActiveTabs(activeTabs);
-      }
-      }
-    }
     },
     setQuestion(value) {
       this.question = value;
@@ -127,7 +133,7 @@ export default {
     reset() {
       this.setQuestion("");
       this.pictures = [];
-      if(this.$refs.userInputOperations) {
+      if (this.$refs.userInputOperations) {
         this.$refs.userInputOperations.clearFileList();
       }
     },
@@ -141,9 +147,12 @@ export default {
       }
 
       // 必须上传附件的场景，校验是否上传了附件
-      if (isMustUploadAttach() && this.$store.state.mainPageChat.mode === 'newChat') {
+      if (
+        isMustUploadAttach() &&
+        this.$store.state.mainPageChat.mode === "newChat"
+      ) {
         if (this.attachments.length <= 0) {
-          this.$message.warning('请上传附件');
+          this.$message.warning("请上传附件");
           return;
         }
       }
@@ -158,7 +167,7 @@ export default {
           }
         }
         this.selectedLeafIds = p;
-        this.selectedLeafIds = [{knowledgeDatabaseId: 17}];
+        this.selectedLeafIds = [{ knowledgeDatabaseId: 17 }];
       }
       const params = {
         sessionUniqueId: this.sessionUniqueId,
@@ -181,18 +190,18 @@ export default {
       if (e.shiftKey || e.altKey || e.metaKey) {
         return;
       } else if (e.ctrlKey) {
-          this.question += '\n';
-          this.$nextTick(() => {
-            const textarea = e.target;
-            textarea.scrollTop = textarea.scrollHeight; // 滚动到底部
-            textarea.focus();
-            return;
-          });
-        } else {
-          e.preventDefault();
-          e.stopPropagation();
-          this.send();
-        }
+        this.question += "\n";
+        this.$nextTick(() => {
+          const textarea = e.target;
+          textarea.scrollTop = textarea.scrollHeight; // 滚动到底部
+          textarea.focus();
+          return;
+        });
+      } else {
+        e.preventDefault();
+        e.stopPropagation();
+        this.send();
+      }
     },
     selectComplete(data) {
       this.selectedLeafIds = data.map((item) => {
@@ -209,8 +218,12 @@ export default {
       this.$refs.userInputOperations.handleDeleteWithoutConfirm(val);
     },
     handleAnswerOptionChange(activeTabs) {
-      this.deepThinkMode = activeTabs.includes("deepThink") ? 'think' : 'no-think';
-      this.networkMode = activeTabs.includes("searchMaterial") ? 'online' : 'offline';
+      this.deepThinkMode = activeTabs.includes("deepThink")
+        ? "think"
+        : "no-think";
+      this.networkMode = activeTabs.includes("searchMaterial")
+        ? "online"
+        : "offline";
     },
   },
 };
@@ -221,8 +234,9 @@ export default {
     class="w-full h-full flex flex-col items-center justify-between py-2 px-4 border-[#3662FF] border rounded-2xl bg-white"
     :class="className"
   >
-    <div v-if="!simpleMode"
-      class="flex justify-between w-full gap-[12px] h-[32px]"
+    <div
+      v-if="!simpleMode"
+      class="hidden justify-between w-full gap-[12px] h-[32px]"
     >
       <UserInputOptions class="flex-none" v-model="useKnowledge" />
       <tree-select
@@ -234,33 +248,49 @@ export default {
       />
     </div>
 
-    <div v-if="!simpleMode" class="w-full h-[1px] bg-[#E5E6EB] mt-[8px] mb-[8px]" />
+    <div
+      v-if="!simpleMode"
+      class="hidden w-full h-[1px] bg-[#E5E6EB] mt-[8px] mb-[8px]"
+    />
 
     <FileList :file-list="attachments" @delete="handleDelete" />
 
-    <div class="w-full my-[8px]" style="height: 50px">
+    <div
+      class="w-full my-[8px] flex items-center justify-between overflow-hidden"
+    >
+      <!-- style="height: 50px" -->
+
       <el-input
         type="textarea"
         :placeholder="llmInputPlaceholder"
         resize="none"
-        class="h-full"
+        class="h-[32px]"
         :rows="rows"
         :style="{ textarea: { border: 'none' } }"
         v-model="question"
         @keydown.enter.native="handleKeydown"
       />
+      <div
+        class="flex w-[56px] h-[32px] py-1 px-4 rounded-[34px] bg-[#3662FF] hover:bg-[#2041FF] items-center justify-center ml-4 cursor-pointer"
+        @click.stop="send"
+      >
+        <svg-icon icon-class="llm-send" class-name="!w-[22px] !h-[22px]" />
+      </div>
     </div>
 
-    <div v-if="!simpleMode" class="flex flex-row items-center justify-between w-full h-[32px]">
-        <div class="flex   justify-start w-full gap-[10px]">
-          <!--  -笔记、报告、学术课件、科普文章 场景下显示功能按钮 -->
-          <NoteActionButtons
-            ref="noteActionButtons"
-            v-if="isDeepThinkMode"
-            :on-action="handleAnswerOptionChange"
-          />
-          <!-- 其他场景显示模型选择器 -->
-          <ModelChooser v-else v-model="usedModel" />
+    <div
+      v-if="!simpleMode"
+      class="hidden flex-row items-center justify-between w-full h-[32px]"
+    >
+      <div class="flex justify-start w-full gap-[10px]">
+        <!--  -笔记、报告、学术课件、科普文章 场景下显示功能按钮 -->
+        <NoteActionButtons
+          ref="noteActionButtons"
+          v-if="isDeepThinkMode"
+          :on-action="handleAnswerOptionChange"
+        />
+        <!-- 其他场景显示模型选择器 -->
+        <ModelChooser v-else v-model="usedModel" />
       </div>
 
       <UserInputOperations
@@ -272,10 +302,11 @@ export default {
     </div>
     <div v-else class="w-full h-[32px] flex justify-end">
       <div
-      class="flex w-[56px] h-[32px] py-1 px-4 rounded-[34px] bg-[#3662FF] hover:bg-[#2041FF] items-center justify-center ml-4 cursor-pointer"
-      @click.stop="send">
-      <svg-icon icon-class="llm-send" class-name="!w-[22px] !h-[22px]" />
-    </div>
+        class="flex w-[56px] h-[32px] py-1 px-4 rounded-[34px] bg-[#3662FF] hover:bg-[#2041FF] items-center justify-center ml-4 cursor-pointer"
+        @click.stop="send"
+      >
+        <svg-icon icon-class="llm-send" class-name="!w-[22px] !h-[22px]" />
+      </div>
     </div>
   </div>
 </template>
@@ -285,6 +316,7 @@ export default {
   border: none !important;
   box-shadow: none !important;
   padding: 0 !important;
+  line-height: 32px;
 }
 
 ::v-deep .el-textarea__inner:focus {

@@ -58,7 +58,7 @@ export async function sseChat (params, message, type, cb, baseUrl = '/chat/ai/')
       'Authorization': token,
       'Content-Type': 'application/json'
     },
-    withCredentials:true,
+    withCredentials: true,
     body: JSON.stringify(params),
     signal: ctrl.signal,
     openWhenHidden: true,
@@ -68,7 +68,7 @@ export async function sseChat (params, message, type, cb, baseUrl = '/chat/ai/')
       }
     },
     onmessage (msg) {
-       if (msg.event === 'close') {ctrl.abort();}
+      if (msg.event === 'close') { ctrl.abort(); }
 
       const data = JSON.parse(msg.data);
 
@@ -109,7 +109,7 @@ export async function sseChat (params, message, type, cb, baseUrl = '/chat/ai/')
     onerror (err) {
       cb('end');
 
-        throw err; // rethrow to stop the operation
+      throw err; // rethrow to stop the operation
 
     }
   });
@@ -173,7 +173,7 @@ export async function addToKnowledge (chat) {
 
 // 获取会话消息 /chat/messages
 export async function getChatMessages (sessionUniqueId) {
-  console.log('获取历史消息列表', sessionUniqueId );
+  console.log('获取历史消息列表', sessionUniqueId);
   const responseData = await request({
     url: "/chat/messages",
     method: 'get',
@@ -198,7 +198,7 @@ export async function getChatMessages (sessionUniqueId) {
 }
 // /chat/session/rename/auto 自动命名会话
 export async function renameSession (sessionUniqueId) {
-  console.log('自动命名会话', sessionUniqueId );
+  console.log('自动命名会话', sessionUniqueId);
   const responseData = await request({
     url: "/chat/session/rename/auto",
     method: 'post',
@@ -214,7 +214,7 @@ export async function renameSession (sessionUniqueId) {
   return responseData.data
 }
 // 获取引用消息数据块内容
-export async function getReferenceData (referenceChunkId ) {
+export async function getReferenceData (referenceChunkId) {
   const responseData = await request({
     url: "/chat/reference/chunk",
     method: 'get',
@@ -228,13 +228,25 @@ export async function getReferenceData (referenceChunkId ) {
   return responseData
 }
 
-export async function removeChatMessage(messageUniqueId) {
+export async function removeChatMessage (messageUniqueId) {
   const responseData = await request({
     url: '/chat/message/remove',
     method: 'POST',
     data: {
       messageUniqueId,
     }
+  })
+  if (responseData.code !== 200) {
+    Message.error("后端接口出现错误");
+    return Promise.reject(responseData.msg);
+  }
+  return responseData
+}
+
+export async function xiaoyang () {
+  const responseData = await request({
+    url: '/chat/ai/langgraph/suggestion/xiaoyang',
+    method: 'GET',
   })
   if (responseData.code !== 200) {
     Message.error("后端接口出现错误");

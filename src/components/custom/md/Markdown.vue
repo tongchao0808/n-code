@@ -36,7 +36,7 @@ export default {
     this.registerResizeEvent();
   },
   beforeDestroy() {
-    window.removeEventListener('resize', this.handleResize);
+    window.removeEventListener("resize", this.handleResize);
     if (this.resizeTimer) {
       clearTimeout(this.resizeTimer);
     }
@@ -52,7 +52,7 @@ export default {
         this.time = setTimeout(() => {
           this.checkAllBubbleElements();
 
-          this.registerEvent()
+          this.registerEvent();
         }, 3000);
       },
     },
@@ -63,7 +63,7 @@ export default {
       clearTimeout(this.resizeTimer);
       this.resizeTimer = setTimeout(() => this.checkAllBubbleElements(), 100);
     },
-    
+
     // 检查所有引用气泡位置
     checkAllBubbleElements() {
       const elements = document.getElementsByClassName("reference");
@@ -77,36 +77,43 @@ export default {
         }
       });
     },
-    registerEvent(){
-      if(!this.$refs.markdownBody){
-        return
+    registerEvent() {
+      if (!this.$refs.markdownBody) {
+        return;
       }
       // 注册文件展示框的点击事件，点击后触发doSlideClick事件，传递文件id
-      const slideBoxes = this.$refs.markdownBody.querySelectorAll('.slide-box')
-      if(slideBoxes.length === 0){
-        return
+      const slideBoxes = this.$refs.markdownBody.querySelectorAll(".slide-box");
+      if (slideBoxes.length === 0) {
+        return;
       }
       slideBoxes.forEach((item) => {
-        item.addEventListener('click', (e) => {
+        item.addEventListener("click", (e) => {
           e.stopPropagation();
-          this.$bus.$emit('doSlideClick', item.getAttribute('name'));
-        })
-      })
+          this.$bus.$emit("doSlideClick", item.getAttribute("name"));
+        });
+      });
     },
     renderMarkdown(content) {
       if (content === undefined || content === null) {
         return "";
       }
       // 写作模式的Markdown内容不展示<Content>标签，会影响格式解析
-      if(this.isWriteMode){
-        content = content.replaceAll('<Content>', '').replaceAll('</Content>', '');
+      if (this.isWriteMode) {
+        content = content
+          .replaceAll("<Content>", "")
+          .replaceAll("</Content>", "");
       }
       // 配置marked渲染器，为a标签添加target="_blank"
       const renderer = new marked.Renderer();
-      renderer.link = function(href, title, text) {
-        const link = marked.Renderer.prototype.link.call(this, href, title, text);
+      renderer.link = function (href, title, text) {
+        const link = marked.Renderer.prototype.link.call(
+          this,
+          href,
+          title,
+          text
+        );
         // 为a标签添加target="_blank"
-        return link.replace('<a ', '<a target="_blank" ');
+        return link.replace("<a ", '<a target="_blank" ');
       };
       return marked(content, { renderer: renderer });
     },
@@ -133,13 +140,13 @@ export default {
         top: rect.top,
         left: rect.left,
         right: window.innerWidth - rect.right,
-        bottom: window.innerHeight - rect.bottom
+        bottom: window.innerHeight - rect.bottom,
       };
     },
     // 注册窗口resize事件
-  registerResizeEvent() {
-    window.addEventListener('resize', this.handleResize);
-  },
+    registerResizeEvent() {
+      window.addEventListener("resize", this.handleResize);
+    },
   },
 };
 </script>
@@ -178,6 +185,7 @@ export default {
 }
 
 .markdown-body::v-deep {
+  background-color: transparent !important;
   .think {
     color: #666;
     font-size: 14px;
@@ -278,16 +286,16 @@ export default {
     align-items: center;
     gap: 8px;
     border-radius: 8px;
-    border: 1px solid #E5E6EB;
+    border: 1px solid #e5e6eb;
     cursor: pointer;
     position: relative;
 
     &:hover {
-      background-color: #F9FAFB;
+      background-color: #f9fafb;
     }
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 50%;
       right: 4px;

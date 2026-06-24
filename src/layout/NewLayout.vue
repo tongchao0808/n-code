@@ -1,6 +1,13 @@
 <template>
-  <div :class="classObj" class="app-wrapper" :style="{ '--current-color': theme }">
-    <div v-if="$route.meta.wrap !== false" class="w-screen h-screen flex p-0 m-0">
+  <div
+    :class="classObj"
+    class="app-wrapper"
+    :style="{ '--current-color': theme }"
+  >
+    <div
+      v-if="$route.meta.wrap !== false"
+      class="w-screen h-screen flex p-0 m-0"
+    >
       <SideBar />
       <div class="flex-1 min-w-0 h-full flex flex-col overflow-hidden">
         <Navbar class-names="flex-shrink-0" />
@@ -10,20 +17,21 @@
     <div v-else class="w-screen h-screen flex p-0 m-0">
       <app-main />
     </div>
+    <draggable-image />
   </div>
 </template>
 
 <script>
-import RightPanel from '@/components/RightPanel'
-import { AppMain, Navbar, Settings, Sidebar, TagsView } from './components'
-import ResizeMixin from './mixin/ResizeHandler'
-import { mapState } from 'vuex'
-import variables from '@/assets/styles/variables.scss'
+import RightPanel from "@/components/RightPanel";
+import { AppMain, Navbar, Settings, Sidebar, TagsView } from "./components";
+import ResizeMixin from "./mixin/ResizeHandler";
+import { mapState } from "vuex";
+import variables from "@/assets/styles/variables.scss";
 import SideMenu from "@/components/custom/sidemenu/SideMenu.vue";
 import SideBar from "@/components/custom/sidemenu/SideBar.vue";
-
+import DraggableImage from "@/components/DraggableImage";
 export default {
-  name: 'NewLayout',
+  name: "NewLayout",
   components: {
     SideBar,
     SideMenu,
@@ -32,36 +40,37 @@ export default {
     RightPanel,
     Settings,
     Sidebar,
-    TagsView
+    TagsView,
+    DraggableImage,
   },
   mixins: [ResizeMixin],
   computed: {
     ...mapState({
-      theme: state => state.settings.theme,
-      sideTheme: state => state.settings.sideTheme,
-      sidebar: state => state.app.sidebar,
-      device: state => state.app.device,
-      needTagsView: state => state.settings.tagsView,
-      fixedHeader: state => state.settings.fixedHeader
+      theme: (state) => state.settings.theme,
+      sideTheme: (state) => state.settings.sideTheme,
+      sidebar: (state) => state.app.sidebar,
+      device: (state) => state.app.device,
+      needTagsView: (state) => state.settings.tagsView,
+      fixedHeader: (state) => state.settings.fixedHeader,
     }),
     classObj() {
       return {
         hideSidebar: !this.sidebar.opened,
         openSidebar: this.sidebar.opened,
         withoutAnimation: this.sidebar.withoutAnimation,
-        mobile: this.device === 'mobile'
-      }
+        mobile: this.device === "mobile",
+      };
     },
     variables() {
       return variables;
-    }
+    },
   },
   methods: {
     handleClickOutside() {
-      this.$store.dispatch('app/closeSideBar', { withoutAnimation: false })
-    }
-  }
-}
+      this.$store.dispatch("app/closeSideBar", { withoutAnimation: false });
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -90,7 +99,7 @@ export default {
 }
 
 ::v-deep ::-webkit-scrollbar-thumb {
-  background-color: #B8CDFF !important;
+  background-color: #b8cdff !important;
   border-radius: 3px;
   position: relative !important;
   left: 10px !important;
